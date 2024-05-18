@@ -16,6 +16,7 @@ class Address(Model):
 class Document(Model):
     __tablename__ = 'Document'
     __table_args__ = {'schema': 'Production'}
+
     DocumentNode = Column(BINARY, primary_key=True)
     Title = Column(NVARCHAR)
     DocumentSummary = Column(NVARCHAR)
@@ -25,6 +26,7 @@ class Document(Model):
 class UnitMeasure(Model):
     __tablename__ = 'UnitMeasure'
     __table_args__ = {'schema': 'Production'}
+
     UnitMeasureCode = Column(NCHAR, primary_key=True)
     Name = Column(NVARCHAR)
-    ModifiedDate = (DATETIME)
+    ModifiedDate = Column(DATETIME)
