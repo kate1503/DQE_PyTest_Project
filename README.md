@@ -46,7 +46,7 @@ cd DQE_PyTest_Project
 ```
 pip install -r requirements.txt
 ```
-5. Create .env file in root project directory with your user credentials and server port:
+5. Create .env file in the root project directory with your MSSQL user credentials and server port:
 ```
 DQE_PyTest_Project/
 └── .env
