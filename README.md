@@ -1,4 +1,4 @@
-# Data Testing Project for 'AdwentureWorks' Database
+# Data Testing Project for 'AdventureWorks' Database
 The project goal is to perform several tests related to data checks in 3 different tables. 
 This project involves creating and documenting test cases, automating these test cases, and generating test results report.
 
@@ -34,19 +34,21 @@ DQE_PyTest_Project/
 
 ### Installation
 
-1. Set up MSSQL "AdventureWorks" database locally.
+1. Set up MSSQL "AdventureWorks2012" database locally
 2. Create user in MSSQL to connect from Python
-3. Clone the repository to your local machine:
+3. Install Microsoft ODBC driver for SQL
+4. Clone the repository to your local machine
+
 ```
 git clone
 https://github.com/kate1503/DQE_PyTest_Project.git
 cd DQE_PyTest_Project
 ```
-4. Install necessary Python packages (listed in requirements.txt):
+5. Install necessary Python packages (listed in requirements.txt)
 ```
 pip install -r requirements.txt
 ```
-5. Create .env file in the root project directory with your MSSQL user credentials and server port:
+6. Create .env file in the root project directory with your MSSQL user credentials and server port
 ```
 DQE_PyTest_Project/
 └── .env
