@@ -1,5 +1,5 @@
 import pytest
-import tables as tbl
+from src.db import tables as tbl
 from tests.conftest import get_db_session
 from sqlalchemy import func
 from src.errors.global_enums import GlobalErrorMessages as Error

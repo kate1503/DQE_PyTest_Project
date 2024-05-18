@@ -1,6 +1,6 @@
 from sqlalchemy import Column
 from sqlalchemy import Integer, BINARY, NCHAR, NVARCHAR, DATETIME, SmallInteger
-from db import Model
+from dbconnection import Model
 
 
 class Address(Model):
